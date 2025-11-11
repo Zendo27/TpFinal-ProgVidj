@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Descargas\\TpFinal\\JuegoPropio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|D:\\Descargas\\TpFinal\\JuegoPropio\\assets\\myproject\\player\\scripts\\patterns\\smoothglobalmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|d:\\descargas\\tpfinal\\juegopropio\\assets\\myproject\\player\\scripts\\patterns\\smoothglobalmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\player\\scripts\\patterns\\smoothglobalmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|D:\\Descargas\\TpFinal\\JuegoPropio\\assets\\myproject\\player\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\player\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|D:\\Descargas\\TpFinal\\JuegoPropio\\assets\\myproject\\player\\scripts\\patterns\\fastglobalmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,19 +19,15 @@
       "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\player\\scripts\\patterns\\imovestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|D:\\Descargas\\TpFinal\\JuegoPropio\\assets\\myproject\\player\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\player\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|D:\\Descargas\\TpFinal\\JuegoPropio\\assets\\myproject\\player\\scripts\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\player\\scripts\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|d:\\descargas\\tpfinal\\juegopropio\\assets\\myproject\\player\\scripts\\patterns\\command\\shootcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|D:\\Descargas\\TpFinal\\JuegoPropio\\assets\\myproject\\player\\scripts\\patterns\\command\\shootcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\player\\scripts\\patterns\\command\\shootcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|d:\\descargas\\tpfinal\\juegopropio\\assets\\myproject\\proyectiles\\bala\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|D:\\Descargas\\TpFinal\\JuegoPropio\\assets\\myproject\\proyectiles\\bala\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\proyectiles\\bala\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,7 +54,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\PlayerController.cs",
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Assets\\MyProject\\Player\\Scripts\\patterns\\Command\\ShootCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T03:03:19.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T03:03:19.214Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "Assets\\MyProject\\Proyectiles\\Bala\\Bullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T03:02:03.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T03:02:03.522Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "Assets\\MyProject\\Player\\Scripts\\InputHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T00:10:28.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T00:10:28.876Z"
             },
             {
               "$type": "Document",
@@ -130,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IMoveStrategy.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\patterns\\IMoveStrategy.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\patterns\\IMoveStrategy.cs",
@@ -138,12 +135,11 @@
               "RelativeToolTip": "Assets\\MyProject\\Player\\Scripts\\patterns\\IMoveStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:06:41.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T20:06:41.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FastGlobalMove.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\patterns\\FastGlobalMove.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\patterns\\FastGlobalMove.cs",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "Assets\\MyProject\\Player\\Scripts\\patterns\\FastGlobalMove.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T20:05:27.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T20:05:27.928Z"
             },
             {
               "$type": "Document",
@@ -162,7 +157,7 @@
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\patterns\\SmoothGlobalMove.cs",
               "ToolTip": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\patterns\\SmoothGlobalMove.cs",
               "RelativeToolTip": "Assets\\MyProject\\Player\\Scripts\\patterns\\SmoothGlobalMove.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T20:03:56.616Z",
               "EditorCaption": ""
