@@ -17,9 +17,18 @@ public class Bullet : MonoBehaviour
         transform.position += direction * speed * Time.deltaTime;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        // Acá podrías agregar efectos, daño, etc.
-        Destroy(gameObject);
+        // Acá podrías filtrar por etiquetas si querés
+        if (!other.CompareTag("Player")) // Evita destruirse al tocar al jugador
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void Start()
+    {
+        // Por seguridad, se destruye sola a los 3 segundos si no golpea nada
+        Destroy(gameObject, 5f);
     }
 }

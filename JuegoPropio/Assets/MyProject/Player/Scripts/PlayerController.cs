@@ -8,17 +8,30 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpForce = 5f; // Fuerza de salto
     [SerializeField] private float sprintMultiplier = 2f;
     [SerializeField] private GameObject bulletPrefab; // Prefab de la bala
-    [SerializeField] private Transform firePoint;     // Punto de salida de la bala
 
     private IMoveStrategy moveStrategy;
     private Rigidbody rb;
     private bool isSprinting = false;
+
+    private Transform firePoint;
 
 
     private void Start()
     {
         //Inicializa componentes
         rb = GetComponent<Rigidbody>();
+
+        // Busca el punto de disparo por etiqueta
+        GameObject fp = GameObject.FindWithTag("FirePoint");
+        if (fp != null)
+        {
+            firePoint = fp.transform;
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró ningún objeto con la etiqueta 'FirePoint'.");
+        }
+
         // Por defecto: movimiento suave en global
         moveStrategy = new SmoothGlobalMove();
         
@@ -88,12 +101,11 @@ public class PlayerController : MonoBehaviour
     {
         if (bulletPrefab == null || firePoint == null)
         {
-            Debug.LogWarning("Falta asignar el bulletPrefab o el firePoint en el inspector.");
+            Debug.LogWarning("No se pudo disparar: falta el prefab o el FirePoint no fue encontrado.");
             return;
         }
 
-        // Instancia la bala y establece su dirección
-        GameObject bullet = GameObject.Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         bullet.GetComponent<Bullet>().SetDirection(direction);
     }
 }
