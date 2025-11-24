@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "D:\\Descargas\\TpFinal\\JuegoPropio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|d:\\descargas\\tpfinal\\juegopropio\\assets\\myproject\\enemys\\script\\pattern\\strategy\\diagonalbouncemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|d:\\descargas\\tpfinal\\juegopropio\\assets\\myproject\\panels\\scripts\\mainpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\panels\\scripts\\mainpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|d:\\descargas\\tpfinal\\juegopropio\\assets\\myproject\\spawners\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\spawners\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|D:\\Descargas\\TpFinal\\JuegoPropio\\assets\\myproject\\spawners\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\spawners\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|D:\\Descargas\\TpFinal\\JuegoPropio\\assets\\myproject\\enemys\\script\\pattern\\strategy\\diagonalbouncemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\enemys\\script\\pattern\\strategy\\diagonalbouncemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\enemys\\script\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|d:\\descargas\\tpfinal\\juegopropio\\assets\\myproject\\proyectiles\\enemybullet\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|D:\\Descargas\\TpFinal\\JuegoPropio\\assets\\myproject\\proyectiles\\enemybullet\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A91D6F6-5962-F919-7E77-E89037D2253D}|Assembly-CSharp.csproj|solutionrelative:assets\\myproject\\proyectiles\\enemybullet\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -103,6 +115,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainPanel.cs",
+              "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Panels\\Scripts\\MainPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\MyProject\\Panels\\Scripts\\MainPanel.cs",
+              "ToolTip": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Panels\\Scripts\\MainPanel.cs",
+              "RelativeToolTip": "Assets\\MyProject\\Panels\\Scripts\\MainPanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T01:17:44.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Spawners\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MyProject\\Spawners\\SpawnManager.cs",
+              "ToolTip": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Spawners\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\MyProject\\Spawners\\SpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:44:42.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpawnPoint.cs",
+              "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Spawners\\SpawnPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\MyProject\\Spawners\\SpawnPoint.cs",
+              "ToolTip": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Spawners\\SpawnPoint.cs",
+              "RelativeToolTip": "Assets\\MyProject\\Spawners\\SpawnPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:44:07.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DiagonalBounceMove.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\DiagonalBounceMove.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\DiagonalBounceMove.cs",
@@ -110,12 +160,11 @@
               "RelativeToolTip": "Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\DiagonalBounceMove.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T06:19:55.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T06:19:55.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EnemyBullet.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Proyectiles\\EnemyBullet\\EnemyBullet.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Proyectiles\\EnemyBullet\\EnemyBullet.cs",
@@ -123,12 +172,11 @@
               "RelativeToolTip": "Assets\\MyProject\\Proyectiles\\EnemyBullet\\EnemyBullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T22:51:57.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T22:51:57.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "IAttackStrategy.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\IAttackStrategy.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\IAttackStrategy.cs",
@@ -140,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "RangedAttack.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\RangedAttack.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\RangedAttack.cs",
@@ -152,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Enemys\\Script\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Enemys\\Script\\EnemyController.cs",
@@ -160,12 +208,11 @@
               "RelativeToolTip": "Assets\\MyProject\\Enemys\\Script\\EnemyController.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAswGAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T13:59:52.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T13:59:52.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "PatrolEnemyMove.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\PatrolEnemyMove.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\PatrolEnemyMove.cs",
@@ -177,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "IdleEnemyMove.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\IdleEnemyMove.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\IdleEnemyMove.cs",
@@ -189,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ChaseEnemyMove.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\ChaseEnemyMove.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\ChaseEnemyMove.cs",
@@ -201,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IMoveEnemyStrategy.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\IMoveEnemyStrategy.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Enemys\\Script\\pattern\\Strategy\\IMoveEnemyStrategy.cs",
@@ -213,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Enemys\\Script\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Enemys\\Script\\Enemy.cs",
@@ -225,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Bullet.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Proyectiles\\Bullet\\Script\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Proyectiles\\Bullet\\Script\\Bullet.cs",
@@ -237,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Bullet.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Proyectiles\\Bullet\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Proyectiles\\Bullet\\Bullet.cs",
@@ -248,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\PlayerController.cs",
@@ -260,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ShootCommand.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\patterns\\Command\\ShootCommand.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\patterns\\Command\\ShootCommand.cs",
@@ -272,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Bullet.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Proyectiles\\Bala\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Proyectiles\\Bala\\Bullet.cs",
@@ -283,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "InputHandler.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\InputHandler.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\InputHandler.cs",
@@ -295,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "JumpCommand.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\patterns\\Command\\JumpCommand.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\patterns\\Command\\JumpCommand.cs",
@@ -307,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "ICommand.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\patterns\\Command\\ICommand.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\patterns\\Command\\ICommand.cs",
@@ -319,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "IMoveStrategy.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\patterns\\IMoveStrategy.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\patterns\\IMoveStrategy.cs",
@@ -331,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "FastGlobalMove.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\patterns\\FastGlobalMove.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\patterns\\FastGlobalMove.cs",
@@ -343,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "SmoothGlobalMove.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\patterns\\SmoothGlobalMove.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\patterns\\SmoothGlobalMove.cs",
@@ -355,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "SprintCommand.cs",
               "DocumentMoniker": "D:\\Descargas\\TpFinal\\JuegoPropio\\Assets\\MyProject\\Player\\Scripts\\patterns\\Command\\SprintCommand.cs",
               "RelativeDocumentMoniker": "Assets\\MyProject\\Player\\Scripts\\patterns\\Command\\SprintCommand.cs",

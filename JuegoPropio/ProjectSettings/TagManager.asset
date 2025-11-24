@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FirePoint
   - Ground
+  - Spawner
   layers:
   - Default
   - TransparentFX
