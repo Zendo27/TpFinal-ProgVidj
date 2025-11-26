@@ -19,8 +19,17 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Acá podrías filtrar por etiquetas si querés
-        if (!other.CompareTag("Player")) // Evita destruirse al tocar al jugador
+        // Si tiene vida, le hacemos daño
+        EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
+        if (enemyHealth != null)
+        {
+            enemyHealth.TakeDamage(1);
+            Destroy(gameObject);
+            return;
+        }
+
+        // Si choca con algo que NO es el jugador, se destruye
+        if (!other.CompareTag("Player"))
         {
             Destroy(gameObject);
         }

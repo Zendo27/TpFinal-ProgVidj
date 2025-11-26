@@ -11,6 +11,7 @@ ehthumbs.db
 Thumbs.db
 
 # Visual Studio / MonoDevelop generated files
+.vs/
 .vscode/
 .idea/
 *.csproj

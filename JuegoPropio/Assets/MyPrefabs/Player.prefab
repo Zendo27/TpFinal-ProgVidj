@@ -206,6 +206,7 @@ GameObject:
   - component: {fileID: 3750533770408040568}
   - component: {fileID: 4581585047356253632}
   - component: {fileID: 6314477139073880532}
+  - component: {fileID: -3408232495439683283}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -297,6 +298,20 @@ CapsuleCollider:
   m_Height: 2.0240064
   m_Direction: 1
   m_Center: {x: 0, y: 0.0015108585, z: 0}
+--- !u!114 &-3408232495439683283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9143135690389109954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9818ff5ee49fe9d4489a50b05a87a65b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 6
+  invincibleTime: 2
 --- !u!1 &9198366774492202952
 GameObject:
   m_ObjectHideFlags: 0
