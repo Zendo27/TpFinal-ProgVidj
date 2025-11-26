@@ -64,7 +64,11 @@ public class EnemyController : MonoBehaviour
             return;
         }
 
-        float distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
+        Vector3 enemyXZ = new Vector3(transform.position.x, 0, transform.position.z);
+        Vector3 playerXZ = new Vector3(playerTransform.position.x, 0, playerTransform.position.z);
+
+        float distanceToPlayer = Vector3.Distance(enemyXZ, playerXZ);
+
 
         // 🔄 Cambiar entre estrategias de movimiento
         if (distanceToPlayer <= detectionRange && currentStrategy != chaseStrategy)
@@ -90,9 +94,20 @@ public class EnemyController : MonoBehaviour
     }
 
 
-    // 🔄 Gira al colisionar con paredes u obstáculos (pero no con el suelo)
+    // 🔄 Gira al colisionar con paredes u obstáculos
     private void OnCollisionEnter(Collision collision)
     {
+        // 💥 Dañar al jugador si toca al enemigo
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerHealth ph = collision.gameObject.GetComponent<PlayerHealth>();
+            if (ph != null)
+            {
+                ph.TakeDamage(1); // Daño al chocar
+            }
+        }
+
+        // 🔄 Rebote o patrulla
         if (currentStrategy == patrolStrategy && !collision.gameObject.CompareTag("Ground"))
         {
             patrolStrategy.OnCollisionWithWall(transform);
@@ -102,4 +117,5 @@ public class EnemyController : MonoBehaviour
             diagonalStrategy.OnCollisionWithWall(transform, collision);
         }
     }
+
 }
