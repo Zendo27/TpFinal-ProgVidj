@@ -12,6 +12,7 @@ TagManager:
   - VictoryPanel
   - PanelManager
   - Door
+  - Boss
   layers:
   - Default
   - TransparentFX

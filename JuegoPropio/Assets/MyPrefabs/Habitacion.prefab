@@ -227,6 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 0}
+  targetRoom: {fileID: 0}
 --- !u!1 &1361870287128800995
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +241,7 @@ GameObject:
   - component: {fileID: 6039734099993643345}
   - component: {fileID: 7769538877135635412}
   m_Layer: 0
-  m_Name: Pared01 (1)
+  m_Name: Pared_S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -459,7 +460,7 @@ GameObject:
   - component: {fileID: 7782265663080521024}
   - component: {fileID: 1713492828077268352}
   m_Layer: 0
-  m_Name: Pared02
+  m_Name: Pared_O
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -743,6 +744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 0}
+  targetRoom: {fileID: 0}
 --- !u!1 &4414045317298873656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,6 +1106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 0}
+  targetRoom: {fileID: 0}
 --- !u!1 &6570327989496588409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,6 +1336,7 @@ Transform:
   - {fileID: 6430273448758509448}
   - {fileID: 9106090695610055626}
   - {fileID: 8685656457269667171}
+  - {fileID: 3923266792874140916}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7090009092046125659
@@ -1634,6 +1638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 0}
+  targetRoom: {fileID: 0}
 --- !u!1 &7718406781876455146
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,6 +1670,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8685656457269667171}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8105403292708928330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3923266792874140916}
+  m_Layer: 0
+  m_Name: PointCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3923266792874140916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8105403292708928330}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5950051, y: -0, z: -0, w: 0.80372196}
+  m_LocalPosition: {x: -20, y: 18.78, z: -7.53}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3161320924393092852}
+  m_LocalEulerAnglesHint: {x: 73.026, y: 0, z: 0}
 --- !u!1 &8254408791078145022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,7 +1745,7 @@ GameObject:
   - component: {fileID: 1770657200040758905}
   - component: {fileID: 1687118796493099320}
   m_Layer: 0
-  m_Name: Pared02 (2)
+  m_Name: Pared_E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1819,7 +1855,7 @@ GameObject:
   - component: {fileID: 73881943256773993}
   - component: {fileID: 8845596304197907881}
   m_Layer: 0
-  m_Name: Pared01
+  m_Name: Pared_N
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

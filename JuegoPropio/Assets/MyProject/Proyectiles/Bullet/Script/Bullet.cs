@@ -19,11 +19,18 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Si tiene vida, le hacemos daño
-        EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
-        if (enemyHealth != null)
+        // Daño a enemigos normales
+        if (other.TryGetComponent(out EnemyHealth enemyHealth))
         {
             enemyHealth.TakeDamage(1);
+            Destroy(gameObject);
+            return;
+        }
+
+        // Daño al Boss
+        if (other.TryGetComponent(out BossHealth bossHealth))
+        {
+            bossHealth.TakeDamage(1);
             Destroy(gameObject);
             return;
         }
@@ -37,7 +44,7 @@ public class Bullet : MonoBehaviour
 
     private void Start()
     {
-        // Por seguridad, se destruye sola a los 3 segundos si no golpea nada
+        // Por seguridad, se destruye sola a los 5 segundos si no golpea nada
         Destroy(gameObject, 5f);
     }
 }
