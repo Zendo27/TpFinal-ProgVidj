@@ -3,6 +3,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     [Header("Vida del enemigo")]
+    [SerializeField] private GameObject deathEffect;
     public int maxHealth = 3;
     private int currentHealth;
 
@@ -23,6 +24,9 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
+        if (deathEffect != null)
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
+
         Destroy(gameObject);
     }
 }
