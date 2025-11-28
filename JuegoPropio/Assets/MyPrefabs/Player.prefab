@@ -135,6 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amplitude: 0.5
   speed: 2.5
+  levitationAudio: {fileID: 0}
 --- !u!82 &3219984242366060625
 AudioSource:
   m_ObjectHideFlags: 0
@@ -243,7 +244,6 @@ GameObject:
   - component: {fileID: 1617824423300103987}
   - component: {fileID: 3084190679890999321}
   - component: {fileID: 3302361361515877319}
-  - component: {fileID: 2510683542892175570}
   m_Layer: 0
   m_Name: Lentes
   m_TagString: Untagged
@@ -319,27 +319,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2510683542892175570
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9080362870816625279}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9143135690389109954
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,9 +435,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathEffect: {fileID: 3526144364942788249, guid: af12d093c3a26f446a27c47a960559c6, type: 3}
-  maxHealth: 6
+  maxHealth: 10
   invincibleDuration: 1.5
   blinkInterval: 0.1
+  vidaText: {fileID: 0}
+  vidaSlider: {fileID: 0}
 --- !u!1 &9198366774492202952
 GameObject:
   m_ObjectHideFlags: 0
