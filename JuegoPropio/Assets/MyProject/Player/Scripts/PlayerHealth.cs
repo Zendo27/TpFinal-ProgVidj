@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private GameObject deathEffect;
+
     [Header("Vida")]
-    public int maxHealth = 6;
+    public int maxHealth = 10;
     private int currentHealth;
 
     [Header("Invencibilidad")]
@@ -14,7 +17,10 @@ public class PlayerHealth : MonoBehaviour
     private bool isInvincible = false;
 
     private Renderer playerRenderer;
-     
+
+    [Header("UI de Vida")]
+    public TextMeshProUGUI vidaText;      // ← opcional
+    public Slider vidaSlider;             // ← opcional
 
     private void Start()
     {
@@ -25,6 +31,9 @@ public class PlayerHealth : MonoBehaviour
 
         if (playerRenderer == null)
             Debug.LogError("⚠ No se encontró Renderer en el Player. Añádelo o revisa el modelo.");
+
+        // Inicializamos UI
+        ActualizarUI();
     }
 
     public void TakeDamage(int damage)
@@ -33,6 +42,8 @@ public class PlayerHealth : MonoBehaviour
 
         currentHealth -= damage;
         Debug.Log("Player HP: " + currentHealth);
+
+        ActualizarUI(); // ← actualizar inmediatamente
 
         if (currentHealth <= 0)
         {
@@ -50,13 +61,11 @@ public class PlayerHealth : MonoBehaviour
         if (pm != null)
             pm.TriggerGameOverDelayed(3f); // delay
 
-
         gameObject.SetActive(false);
 
         if (deathEffect != null)
             Instantiate(deathEffect, transform.position, Quaternion.identity);
     }
-
 
     private System.Collections.IEnumerator InvincibilityRoutine()
     {
@@ -78,5 +87,19 @@ public class PlayerHealth : MonoBehaviour
             playerRenderer.enabled = true;
 
         isInvincible = false;
+    }
+
+    private void ActualizarUI()
+    {
+        // Texto de vida
+        if (vidaText != null)
+            vidaText.text = $"Vida: {currentHealth}";
+
+        // Barra de vida
+        if (vidaSlider != null)
+        {
+            vidaSlider.maxValue = maxHealth;
+            vidaSlider.value = currentHealth;
+        }
     }
 }
