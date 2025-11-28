@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 0}
-  targetRoom: {fileID: 0}
+  cameraPoint: {fileID: 0}
 --- !u!1 &1361870287128800995
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 0}
-  targetRoom: {fileID: 0}
+  cameraPoint: {fileID: 0}
 --- !u!1 &4414045317298873656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,7 +1106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 0}
-  targetRoom: {fileID: 0}
+  cameraPoint: {fileID: 0}
 --- !u!1 &6570327989496588409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,7 +1638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teleportTarget: {fileID: 0}
-  targetRoom: {fileID: 0}
+  cameraPoint: {fileID: 0}
 --- !u!1 &7718406781876455146
 GameObject:
   m_ObjectHideFlags: 0

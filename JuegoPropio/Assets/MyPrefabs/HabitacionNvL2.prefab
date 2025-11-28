@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4652689177881912481
+--- !u!1001 &3862771897485875501
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,8 +9,8 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2205049297135136988, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
-      propertyPath: enemySpawnerPrefabs.Array.size
-      value: 2
+      propertyPath: minSpawners
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2205049297135136988, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
       propertyPath: 'enemySpawnerPrefabs.Array.data[0]'
@@ -20,17 +20,9 @@ PrefabInstance:
       propertyPath: 'enemySpawnerPrefabs.Array.data[1]'
       value: 
       objectReference: {fileID: 911696805252626904, guid: 42d5550f64388c743bb3c50433e36a1e, type: 3}
-    - target: {fileID: 2205049297135136988, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
-      propertyPath: 'enemySpawnerPrefabs.Array.data[2]'
-      value: 
-      objectReference: {fileID: 5339320751597565178, guid: 35bd5b84d0d6df049a9cebc881c88404, type: 3}
-    - target: {fileID: 2205049297135136988, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
-      propertyPath: 'enemySpawnerPrefabs.Array.data[3]'
-      value: 
-      objectReference: {fileID: 5339320751597565178, guid: 35bd5b84d0d6df049a9cebc881c88404, type: 3}
     - target: {fileID: 3161320924393092852, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3161320924393092852, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
       propertyPath: m_LocalPosition.y
@@ -68,25 +60,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5457137551348419282, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
-      propertyPath: enemySpawnerPrefabs.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5457137551348419282, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
-      propertyPath: 'enemySpawnerPrefabs.Array.data[1]'
-      value: 
-      objectReference: {fileID: 3334210865619089470, guid: 21c12680a44dc6d4192da6e9a0a5bbb9, type: 3}
-    - target: {fileID: 5457137551348419282, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
-      propertyPath: 'enemySpawnerPrefabs.Array.data[2]'
-      value: 
-      objectReference: {fileID: 5339320751597565178, guid: 35bd5b84d0d6df049a9cebc881c88404, type: 3}
-    - target: {fileID: 5457137551348419282, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
-      propertyPath: 'enemySpawnerPrefabs.Array.data[3]'
-      value: 
-      objectReference: {fileID: 911696805252626904, guid: 42d5550f64388c743bb3c50433e36a1e, type: 3}
     - target: {fileID: 7073109987179810992, guid: 3dd75be3dae07ee4db149e8bb5318600, type: 3}
       propertyPath: m_Name
-      value: HabitacionLvL2 Variant
+      value: HabitacionNvL2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

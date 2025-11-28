@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;   // necesario para IEnumerator
 
 public class PanelManager : MonoBehaviour
 {
@@ -18,24 +19,39 @@ public class PanelManager : MonoBehaviour
             victoryPanel.SetActive(false);
     }
 
+    // ------------ GAME OVER INMEDIATO ------------
     public void TriggerGameOver()
     {
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
-            Time.timeScale = 0f; // detener juego
+            Time.timeScale = 0f;
         }
     }
 
+    // ------------ GAME OVER CON DELAY ------------
+    public void TriggerGameOverDelayed(float delay = 1.5f)
+    {
+        StartCoroutine(GameOverRoutine(delay));
+    }
+
+    private IEnumerator GameOverRoutine(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        TriggerGameOver();
+    }
+
+    // ------------ VICTORY ------------
     public void TriggerVictory()
     {
         if (victoryPanel != null)
         {
             victoryPanel.SetActive(true);
-            Time.timeScale = 0f; // detener juego
+            Time.timeScale = 0f;
         }
     }
 
+    // ------------ BOTONES ------------
     public void RetryLevel()
     {
         Time.timeScale = 1f;

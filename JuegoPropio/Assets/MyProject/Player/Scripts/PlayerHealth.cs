@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [SerializeField] private GameObject deathEffect;
     [Header("Vida")]
     public int maxHealth = 6;
     private int currentHealth;
@@ -13,6 +14,7 @@ public class PlayerHealth : MonoBehaviour
     private bool isInvincible = false;
 
     private Renderer playerRenderer;
+     
 
     private void Start()
     {
@@ -46,9 +48,13 @@ public class PlayerHealth : MonoBehaviour
         PanelManager pm = GameObject.FindWithTag("PanelManager").GetComponent<PanelManager>();
 
         if (pm != null)
-            pm.TriggerGameOver();
+            pm.TriggerGameOverDelayed(3f); // delay
+
 
         gameObject.SetActive(false);
+
+        if (deathEffect != null)
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
     }
 
 

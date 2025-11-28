@@ -289,6 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 617d5fb0b9a738741ada922fd8a8096c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathEffect: {fileID: 4367643329550079957, guid: cc4f07b7f48d89840b0e8f7807bf1d32, type: 3}
   maxHealth: 3
 --- !u!65 &5809630074215111230
 BoxCollider:
@@ -336,7 +337,7 @@ Transform:
   m_GameObject: {fileID: 2602228662044905698}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.221, z: 0.58}
+  m_LocalPosition: {x: 0, y: -0.221, z: 0.747}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
