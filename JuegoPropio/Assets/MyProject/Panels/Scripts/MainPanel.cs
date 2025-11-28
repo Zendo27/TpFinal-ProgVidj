@@ -49,6 +49,19 @@ public class MainPanel : MonoBehaviour
     {
         SceneManager.LoadScene("LvL1");
     }
+    public void ExitGame()
+    {
+        Debug.Log("El juego se cerró correctamente.");
+
+        Application.Quit();
+
+        // Esto solo sirve en el editor para verificar que funciona
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+    }
+
+
 
     public void ChangeVolumenMaster(float v) 
     {
